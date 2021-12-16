@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Alura</title>
+</head>
+
+<body>
+    <header>
+        <!--
+        <img id="logo" src="logo.png">
+        <div id="barraPesquisa">
+            <input id="textoPesquisa" type="text" placeholder="Busque por algo">
+        </div>
+        <div id="autor">
+            <img id="perfil" src="perfil.jpg">
+        </div>
+    -->
+        <div class="container">
+            <img id="logo" src="logo.png">
+
+            <div class="item" id="barraPesquisa">
+                <input id="textoPesquisa" type="text" placeholder="Busque por algo">
+            </div>
+            <div>
+                <img id="perfil" src="perfil.jpg">
+                <input class="nome" value="Paloma"></input>
+            </div>
+        </div>
+    </header>
+
+    <div class="menu">
+        <h3 class="textoMenu">Menu</h3>
+        <ul class="itensMenu">
+            <div class="fundoItem1">
+                <li id="item1">
+
+                    <a href="index.html"><img class="imgItem" src="Vector.svg"></a>
+                </li>
+            </div>
+            <span class="textoItem1"><a href="index.html">Editor de código</a></span>
+
+            <div class="fundoItem2">
+                <li id="item1">
+                    <a href="index.html"><img class="imgItem2" src="comunidade.svg"></a>
+
+                </li>
+            </div>
+            <span class="textoItem2"><a href="index.html">Comunidade</a></span>
+            <!--
+            <li><span>Item2</span></li>
+            -->
+        </ul>
+
+    </div>
+
+    <section class="editorCodigos">
+        <div class="codigos">
+            <div class="container">
+                <img src="Ellipse 1.svg">
+                <img src="Ellipse 2.svg">
+                <img src="Ellipse 3.svg">
+            </div>
+            <textarea>
+                
+xhr.open('POST', 'https://.../api/v4/auth/login', true);
+xhr.setRequestHeader("Content-type", "application/json");
+        
+xhr.onreadystatechange = () => {
+        
+    if (xhr.readyState == 4) {
+        
+        if (xhr.status == 200) {
+            console.log(xhr.responseText);
+        }
+        else {
+            console.log(xhr.responseText);
+        }
+        }
+        }
+        
+xhr.send(JSON.stringify(dados));
+            </textarea>
+
+        </div>
+        <input class="btnHighlight" type="button" value="Visualizar com o highlight">
+
+    </section>
+
+
+
+    <div class="menuDadosProjeto">
+
+        <ul>
+            <h3 class="textoMenuProjeto">Seu projeto</h3>
+            <li>
+                <input placeholder="Nome do seu projeto">
+            </li>
+            <li>
+                <input placeholder="Descrição do seu projeto">
+            </li>
+        </ul>
+    </div>
+
+    <div class="menuPersonalizacao">
+        <ul>
+            <h3 class="textoMenuProjeto">Personalização</h3>
+            <li>
+                <select>
+                    <option>JavaScript</option>
+                    <option>HTML</option>
+                    <option>CSS</option>
+                </select>
+            </li>
+            <li>
+                <input class="seletorCor">
+            </li>
+            <li>
+                <input class="botaoProjeto" type="button" value="Salvar Projeto">
+            </li>
+
+        </ul>
+
+
+
+
+    </div>
+
+
+    <!--
+    <div class="menu">
+        <p class="textoMenu">MENU</p>
+        <div class="container">
+            <svg id="codigo">
+                <rect id="cod" rx="15" ry="15" width="48" height="48"/>
+                <text fill="#ffffff" font-size="12" font-family="Verdana" x="10" y="25" >< / ></text>
+              </svg>
+            <p id="textoEditor">Editor de código</p>
+        </div>
+
+        <div class="container">
+            <svg id="codigo">
+                <rect id="cod" rx="15" ry="15" width="48" height="48"/>
+                <text fill="#ffffff" font-size="12" font-family="Verdana" x="10" y="25" >< / ></text>
+              </svg>
+            <p id="textoEditor">Editor de código</p>
+        </div>
+    </div>
+    -->
+</body>
+
+</html>

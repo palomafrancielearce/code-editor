@@ -1,0 +1,341 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('Inter-Regular.ttf') format('truetype');
+}
+
+body {
+    background-color: #051d3b;
+    font-family: Inter;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.container img {
+    margin-left: 8px;
+}
+
+
+/*
+.item {
+    padding: 5px;
+    margin: 2px 0;
+}
+*/
+
+
+/*
+#logo {
+    height: 60px;
+    position: absolute;
+    margin-left: 15px;
+}
+*/
+
+
+/*
+#barraPesquisa {
+    width: 752px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.16);
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+}
+*/
+
+#textoPesquisa {
+    position: static;
+    height: 30px;
+    left: 0px;
+    top: 0px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    /* Neutral/$white */
+    background-color: transparent;
+    border: none;
+    color: #FFFFFF;
+}
+
+#perfil {
+    /* Photo 
+    position: static;
+    left: 0px;
+    top: 0px;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    margin-right: 20px;
+
+*/
+    position: absolute;
+    right: 98px;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    top: 20px;
+}
+
+.nome {
+    /*
+    color: #FFFFFF;
+    width: 50px;
+    margin-right: 15px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    background-color: transparent;
+    border: none;
+    line-height: 40px;
+    */
+    position: absolute;
+    right: 5px;
+    top: 30px;
+    color: #FFFFFF;
+    width: 70px;
+    background-color: transparent;
+    border: none;
+}
+
+.itensMenu {
+    text-align: center;
+    position: absolute;
+    top: 162px;
+}
+
+#item1 {
+    list-style-type: none;
+}
+
+.fundoItem1 {
+    position: absolute;
+    left: 28px;
+    background-color: #5081FB;
+    width: 48px;
+    height: 48px;
+    border-radius: 16px;
+}
+
+.fundoItem2 {
+    position: absolute;
+    top: 70px;
+    left: 28px;
+    background-color: rgba(80, 129, 251, 0.16);
+    width: 48px;
+    height: 48px;
+    border-radius: 16px;
+}
+
+.imgItem {
+    position: absolute;
+    top: 12px;
+    left: 15px;
+}
+
+.imgItem2 {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    opacity: 50%;
+}
+
+.textoItem1 {
+    position: absolute;
+    top: 12px;
+    left: 96px;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    width: 125px;
+}
+
+.textoItem2 {
+    position: absolute;
+    top: 83px;
+    left: 85px;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    width: 125px;
+}
+
+.textoMenu {
+    color: white;
+    font-family: Inter;
+    position: absolute;
+    top: 128px;
+    left: 32px;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#codigo {
+    margin-left: 30px;
+}
+
+#cod {
+    background-color: #5081FB;
+}
+
+rect {
+    fill: #5081FB;
+    stroke: #5081FB;
+}
+
+#textoEditor {
+    color: white;
+    margin-left: -230px;
+}
+
+#logo,
+.item,
+#perfil {
+    display: inline-block;
+}
+
+#logo {
+    position: absolute;
+    height: 60px;
+}
+
+#barraPesquisa {
+    position: absolute;
+    width: 752px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.16);
+    border-radius: 8px;
+    margin-left: 320px;
+    top: 20px;
+    padding-left: 8px;
+}
+
+.editorCodigos {
+    position: absolute;
+    width: 695px;
+    height: 366px;
+    top: 128px;
+    margin-left: 320px;
+    border-radius: 8px;
+    padding: 32px;
+    background-color: #6BD1FF;
+}
+
+.btnHighlight {
+    position: absolute;
+    width: 762px;
+    height: 50px;
+    top: 468px;
+    left: 0px;
+    border-radius: 8px;
+    background-color: rgba(80, 129, 251, 0.08);
+    border: none;
+    color: #FFFFFF;
+}
+
+.editorCodigos textarea {
+    position: absolute;
+    width: 656px;
+    height: 280px;
+    left: 16px;
+    top: 56px;
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+.codigos {
+    position: absolute;
+    width: 631px;
+    height: 302px;
+    top: 32px;
+    left: 32px;
+    border-radius: 8px;
+    padding: 32px;
+    background-color: #141414;
+    box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.24);
+}
+
+.menuDadosProjeto {
+    position: absolute;
+    top: 128px;
+    right: 32px;
+    text-align: left;
+}
+
+.menuDadosProjeto li {
+    list-style-type: none;
+}
+
+.menuDadosProjeto input {
+    background-color: rgba(255, 255, 255, 0.16);
+    border-radius: 8px;
+    border: none;
+    width: 180px;
+    height: 40px;
+    padding-left: 15px;
+    margin: 8px;
+}
+
+.textoMenuProjeto {
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.menuPersonalizacao {
+    position: absolute;
+    top: 310px;
+    right: 32px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.menuPersonalizacao li {
+    list-style-type: none;
+}
+
+.menuPersonalizacao select {
+    background-color: rgba(255, 255, 255, 0.16);
+    border-radius: 8px;
+    border: none;
+    width: 200px;
+    height: 40px;
+    padding-left: 15px;
+    margin: 8px;
+    color: #FFFFFF;
+}
+
+.seletorCor {
+    background-color: #6BD1FF;
+}
+
+.seletorCor {
+    background-color: #6BD1FF;
+    border-radius: 8px;
+    border: none;
+    width: 180px;
+    height: 40px;
+    padding-left: 15px;
+    margin: 8px;
+}
+
+.botaoProjeto {
+    background-color: #5081FB;
+    border-radius: 8px;
+    border: none;
+    width: 200px;
+    height: 40px;
+    padding-left: 15px;
+    margin: 8px;
+}
